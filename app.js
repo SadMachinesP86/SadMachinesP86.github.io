@@ -34,7 +34,7 @@ function newPane(){
     removePlus();
 
     paneElement = document.createElement('div');
-    paneElement.classList.add(...['scripture-pane','col-3','px-2','my-2']);
+    paneElement.classList.add(...['scripture-pane','col-md-3','col-12','px-2','my-2']);
     paneElement.setAttribute('paneid', nextPaneId);
 
     paneElement.innerHTML = `
