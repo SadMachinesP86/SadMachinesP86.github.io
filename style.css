@@ -1,0 +1,28 @@
+#btn-add-pane {
+    width: initial;
+    height: min-content;
+}
+
+.card button {
+    width: 100%;
+}
+
+.pane-content i {
+    display: table;
+    margin: 0 auto;
+    font-size: xx-large;
+    animation-name: spin;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    line-height: 0;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
