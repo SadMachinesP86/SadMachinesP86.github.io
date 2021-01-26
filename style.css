@@ -3,7 +3,7 @@
     height: min-content;
 }
 
-.card button {
+.card .row button {
     width: 100%;
 }
 
@@ -16,6 +16,13 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     line-height: 0;
+}
+
+.verse-number {
+    display: inline;
+    font-size: .5em;
+    vertical-align: super;
+    padding: 0.25em .65em;
 }
 
 @keyframes spin {
